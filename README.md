@@ -88,7 +88,7 @@
   <td width=120 valign=top style='width:90.1pt;border:solid windowtext 1.0pt;
   border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US><img
-  width=70 height=70 id="Picture 3" src="./resources/poweradapter.jpeg"
+  width=70 height=70 id="Picture 3" src="./resources/PowerAdapter.jpeg"
   alt="A close up of a device&#10;&#10;Description automatically generated"></span></p>
   </td>
   <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
