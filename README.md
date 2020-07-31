@@ -2,7 +2,7 @@
  a simple dbmeter to test Kafka, mirrormaker, Azure Event Hub and Stream Analytics Job
 
 # Overall architecture
-![architecture diagram] (/resouurces/simple-dbmeter-intro.png "components of the solution")
+![architecture diagram] (/resources/simple-dbmeter-intro.png "components of the solution")
 # HW & Service costs
 
 
