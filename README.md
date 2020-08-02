@@ -150,7 +150,7 @@
   <td width=120 valign=top style='width:90.1pt;border:solid windowtext 1.0pt;
   border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US>Azure
-  Stream Analytics (standard 1 streaming unit)</span></p>
+  Stream Analytics (standard, 1 streaming unit)</span></p>
   </td>
   <td width=120 valign=top style='width:90.1pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
