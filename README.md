@@ -210,6 +210,13 @@
 
 # Setup & Test
 ## 1. [Setup the edge (the collector on PC)](Jul-2020/Edge/Setup-Collector-PC.md)
-## 2. Setup the Bus (Kafka cluster & MirrorMaker)
+## 2. [Setup the Bus (Kafka cluster & MirrorMaker)](Jul-2020/Bus/Setup-MsgBus.md)
+## 3. [Setup Azure Cloud and PowerBI](Jul-2020/Cloud/Setup-Azure.md)
+
+# Get it run
+- Connect the sensor to RS485toUSB adaptor and DC power supply.
+- Plug the RS485toUSB adaptor to PC
+- On the MsbBus box, start the Kafka cluster with MirrorMaker. can send a test message on local to Kafka cluster and ensure it reaches and shown in PowerBI dashboard.
+- on the PC, check the network connection to MsbBus box and run the manu_ser.py.
 
 # Other Comments 

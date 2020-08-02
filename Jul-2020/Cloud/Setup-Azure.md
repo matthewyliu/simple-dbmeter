@@ -15,6 +15,9 @@ add a sink as PowerBI. Select your PowerBI workspace, dataset name and table nam
 ## Query
 edit the query to slect the fileds to be output to the PowerBI dataset.
 
+## Run
+once all above done, start the stream analytics job.
+
 # Create the PowerBI Dashboard
 - after the Stream Analytics job runs without problem, the PowerBI dataset will be created automatically.
 - in PowerBI portal, add tiles with real-time data pointing to the generated dataset
