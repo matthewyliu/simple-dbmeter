@@ -209,5 +209,7 @@
 
 
 # Setup & Test
+## 1. [Setup the edge (the collector on PC)](Jul-2020/Edge/Setup-Collector-PC.md)
+## 2. Setup the Bus (Kafka cluster & MirrorMaker)
 
-# other comments 
+# Other Comments 
