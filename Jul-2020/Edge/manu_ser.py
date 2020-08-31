@@ -1,7 +1,7 @@
 from kafka import KafkaProducer
-import serial
 import time
 import json
+import serial
 
 s = serial.Serial(port = 'COM4', baudrate=4800, bytesize=8, stopbits=serial.STOPBITS_ONE)
 
@@ -9,7 +9,7 @@ s.close()
 s.open()
 sendmsg  = b"\x01\x03\x00\x00\x00\x01\x84\x0A" 
 
-kafka_server = '192.168.3.48:9092'
+kafka_server = '192.168.43.121:9092'
 topic ='eventhub7'
 
 producer = KafkaProducer(bootstrap_servers=[kafka_server])
@@ -17,7 +17,6 @@ producer = KafkaProducer(bootstrap_servers=[kafka_server])
 def probe(interval):
     # send msg to serial port
     s.write(sendmsg)
-
     # read response from serial port
     addr = s.read()
     funcode = s.read()
