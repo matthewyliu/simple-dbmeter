@@ -16,4 +16,4 @@
 # startup commands
 - start the zookeeper server: zookeeper-server-start zookeeper.properties
 - start the kafka cluster: kafka-server-start server.properties
-- start the MirrorMaker: kafka-mirror-maker --consumer.config source-kafka.config --num.streams 1 --producer.config mirror-eventhub.config --whitelist=".*"
+- start the MirrorMaker: kafka-mirror-maker --consumer.config source-kafka.config --producer.config mirror-eventhub.config --whitelist="eventhub.*"
