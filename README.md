@@ -220,7 +220,7 @@
 - on the PC, check the network connection to MsbBus box and run the manu_ser.py.
 
 # Play with Kafka Streams
-- create the java application in IntelliJ IDEA with openJDK 11 + Maven
+- Create the java application in IntelliJ IDEA with openJDK 11 + Maven
 <p><img src="./resources/Kafka streams transformation.png" alt="KStreams Transformations" /> </p>
-- update the PowerBI dashboard
+- Update the PowerBI dashboard
 <p><img src="./resources/updated dashboard.png" alt="KStreams Transformations" /> </p>
