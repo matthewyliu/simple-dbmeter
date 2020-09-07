@@ -219,7 +219,8 @@
 - On the MsbBus box, start the Kafka cluster with MirrorMaker. can send a test message on local to Kafka cluster and ensure it reaches and shown in PowerBI dashboard.
 - on the PC, check the network connection to MsbBus box and run the manu_ser.py.
 
-# test Kafka Streams
+# Play with Kafka Streams
 - create the java application in IntelliJ IDEA with openJDK 11 + Maven
-
-<p><img src="./resources/Kafka streams transformation" alt="KStreams Transformations" /> </p>
+<p><img src="./resources/Kafka streams transformation.png" alt="KStreams Transformations" /> </p>
+- update the PowerBI dashboard
+<p><img src="./resources/updated dashboard.png" alt="KStreams Transformations" /> </p>
